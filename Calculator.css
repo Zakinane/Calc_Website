@@ -1,0 +1,236 @@
+@media screen and (max-width: 767px) {
+  body {
+    justify-items: center;
+    display: grid;
+    grid-template-rows: 10px auto auto auto;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+      ".    .      ."
+      ".  header   ."
+      ".  main     ."
+      ".  footer   .";
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3b4664;
+    margin: 0px;
+  }
+  header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: auto 80px 80px;
+    width: 340px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+  }
+  .truc {
+    display: grid;
+    grid-template-rows: repeat(3, 27px);
+    grid-template-columns: repeat(3, 27px);
+    text-align: center;
+  }
+  h5 {
+    color: white;
+    margin: 0px;
+  }
+
+  h1 {
+    text-align: left;
+    color: white;
+  }
+  main {
+    grid-area: main;
+    display: grid;
+  }
+  main div {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #181f32;
+    width: 340px;
+    height: 90px;
+    border-radius: 10px;
+  }
+  h2 {
+    padding-right: 25px;
+    color: white;
+    font-size: 55px;
+  }
+
+  footer {
+    grid-area: footer;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 80px);
+    background-color: #252d44;
+    padding: 10px 10px 10px 10px;
+    width: 320px;
+    height: 420px;
+    border-radius: 10px;
+  }
+  #touche {
+    background-color: #f0ead8;
+    border-bottom: 5px solid #bbb7ab;
+    border-radius: 10px;
+    color: #3b4664;
+    font-weight: bold;
+    font-size: 40px;
+    width: 61px;
+    height: 64px;
+  }
+  #touchedel {
+    background-color: #647097;
+    border-bottom: 5px solid #535e83;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 61px;
+    height: 64px;
+  }
+  #touche1 {
+    background-color: #647097;
+    border-bottom: 5px solid #535e83;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 132px;
+    height: 64px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  #touche2 {
+    background-color: #d13f30;
+    border-bottom: 5px solid #ae3326;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    width: 140px;
+    height: 64px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    justify-items: center;
+    display: grid;
+    grid-template-rows: 10px auto auto auto;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+      ".    .      ."
+      ".  header   ."
+      ".  main     ."
+      ".  footer   .";
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3b4664;
+    margin: 0px;
+  }
+  header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: auto 80px 80px;
+    width: 560px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+  }
+  .truc {
+    display: grid;
+    grid-template-rows: repeat(3, 27px);
+    grid-template-columns: repeat(3, 27px);
+    text-align: center;
+  }
+  h5 {
+    color: white;
+    margin: 0px;
+  }
+
+  h1 {
+    text-align: left;
+    color: white;
+  }
+  main {
+    grid-area: main;
+    display: grid;
+  }
+  main div {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #181f32;
+    width: 560px;
+    height: 130px;
+    border-radius: 10px;
+  }
+  h2 {
+    padding-right: 25px;
+    color: white;
+    font-size: 55px;
+  }
+
+  footer {
+    grid-area: footer;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #252d44;
+    padding: 10px 10px 10px 10px;
+    width: 540px;
+    height: 480px;
+    border-radius: 10px;
+  }
+  #touche {
+    background-color: #f0ead8;
+    border-bottom: 5px solid #bbb7ab;
+    border-radius: 10px;
+    color: #3b4664;
+    font-weight: bold;
+    font-size: 40px;
+    width: 100px;
+    height: 64px;
+  }
+  #touchedel {
+    background-color: #647097;
+    border-bottom: 5px solid #535e83;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    width: 100px;
+    height: 64px;
+  }
+  #touche1 {
+    background-color: #647097;
+    border-bottom: 5px solid #535e83;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    width: 233px;
+    height: 64px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  #touche2 {
+    background-color: #d13f30;
+    border-bottom: 5px solid #ae3326;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    width: 233px;
+    height: 64px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+}
