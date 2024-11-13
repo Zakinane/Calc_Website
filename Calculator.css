@@ -72,6 +72,8 @@
     border-radius: 10px;
   }
   #touche {
+    user-select: none;
+    cursor: pointer;
     background-color: #f0ead8;
     border-bottom: 5px solid #bbb7ab;
     border-radius: 10px;
@@ -82,6 +84,8 @@
     height: 64px;
   }
   #touchedel {
+    user-select: none;
+    cursor: pointer;
     background-color: #647097;
     border-bottom: 5px solid #535e83;
     border-radius: 10px;
@@ -92,6 +96,8 @@
     height: 64px;
   }
   #touche1 {
+    user-select: none;
+    cursor: pointer;
     background-color: #647097;
     border-bottom: 5px solid #535e83;
     border-radius: 10px;
@@ -104,6 +110,8 @@
     grid-column-end: 3;
   }
   #touche2 {
+    user-select: none;
+    cursor: pointer;
     background-color: #d13f30;
     border-bottom: 5px solid #ae3326;
     border-radius: 10px;
@@ -161,12 +169,16 @@
     display: grid;
   }
   main div {
+    overflow:hidden;
     display: flex;
     flex-direction: row-reverse;
+    padding-right: 25px;
+    color: white;
+    font-size: 55px;
     align-items: center;
     background-color: #181f32;
     width: 560px;
-    height: 130px;
+    height: 12vh;
     border-radius: 10px;
   }
   h2 {
@@ -186,10 +198,12 @@
     background-color: #252d44;
     padding: 10px 10px 10px 10px;
     width: 540px;
-    height: 480px;
+    height: 60vh;
     border-radius: 10px;
   }
   #touche {
+    user-select: none;
+    cursor: pointer;
     background-color: #f0ead8;
     border-bottom: 5px solid #bbb7ab;
     border-radius: 10px;
@@ -200,6 +214,8 @@
     height: 64px;
   }
   #touchedel {
+    user-select: none;
+    cursor: pointer;
     background-color: #647097;
     border-bottom: 5px solid #535e83;
     border-radius: 10px;
@@ -210,6 +226,8 @@
     height: 64px;
   }
   #touche1 {
+    user-select: none;
+    cursor: pointer;
     background-color: #647097;
     border-bottom: 5px solid #535e83;
     border-radius: 10px;
@@ -222,6 +240,8 @@
     grid-column-end: 3;
   }
   #touche2 {
+    user-select: none;
+    cursor: pointer;
     background-color: #d13f30;
     border-bottom: 5px solid #ae3326;
     border-radius: 10px;
